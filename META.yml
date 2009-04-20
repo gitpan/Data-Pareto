@@ -1,8 +1,8 @@
 --- #YAML:1.0
 name:                Data-Pareto
-version:             0.01
+version:             0.02
 abstract:            Computing Pareto sets in Perl
-license:             ~
+license:             perl
 author:              
     - Przemyslaw Wesolek <jest@go.art.pl>
 generated_by:        ExtUtils::MakeMaker version 6.42
