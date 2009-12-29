@@ -12,6 +12,13 @@ INSTALLATION
 
 To install this module, run the following commands:
 
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
+
+(or using Makefile.PL and 'make')
+
     perl Makefile.PL
     make
     make test
@@ -41,8 +48,8 @@ You can also look for information at:
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2009 Przemyslaw Wesolek
+Copyright 2009 Przemyslaw Wesolek
 
 This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
-
+under the terms of the Artistic License 2.0. For details, see the full
+text of the license in the file LICENSE.

@@ -1,16 +1,24 @@
---- #YAML:1.0
-name:                Data-Pareto
-version:             0.04
-abstract:            Computing Pareto sets in Perl
-license:             perl
-author:              
-    - Przemyslaw Wesolek <jest@go.art.pl>
-generated_by:        ExtUtils::MakeMaker version 6.42
-distribution_type:   module
-requires:     
-    Carp:                          0
-    Scalar::Util:                  0
-    Test::More:                    0
+---
+abstract: 'Computing Pareto sets in Perl'
+author:
+  - 'Przemyslaw Wesolek <jest@go.art.pl>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3601'
+license: artistic_2
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
-    version: 1.3
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Data-Pareto
+provides:
+  Data::Pareto:
+    file: lib/Data/Pareto.pm
+    version: 0.05
+requires:
+  Carp: 0
+  Scalar::Util: 0
+resources:
+  license: http://www.perlfoundation.org/artistic_license_2_0
+version: 0.05
